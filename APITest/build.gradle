@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '6.8.1'
+    testCompile group: 'io.cucumber', name: 'cucumber-junit', version: '6.8.1'
+    testCompile group: 'io.rest-assured', name: 'rest-assured', version: '4.3.1'
+    testCompile group: 'org.testng', name: 'testng', version: '7.3.0'
+
+
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.3'
+
+
+    testCompile group: 'com.github.tomakehurst', name: 'wiremock', version: '2.27.2', ext: 'pom'
+
+}
