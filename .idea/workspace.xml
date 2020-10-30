@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d46f839c-3c07-4182-974c-d513a47f426f" name="Default Changelist" comment="" />
+    <list default="true" id="d46f839c-3c07-4182-974c-d513a47f426f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604083673073</updated>
       <workItem from="1604083675076" duration="319000" />
-      <workItem from="1604084417907" duration="316000" />
+      <workItem from="1604084417907" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the files">
       <created>1604084576216</created>
@@ -54,7 +56,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604084576216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated the files">
+      <created>1604084770683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604084770683</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated the files">
+      <created>1604084934685</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604084934685</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated the files">
+      <created>1604084946812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604084946812</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,13 +88,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated the files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="403" y="123" key="CommitChangelistDialog2" timestamp="1604084934555">
+    <state x="403" y="123" key="CommitChangelistDialog2" timestamp="1604084946678">
       <screen x="0" y="23" width="1680" height="966" />
     </state>
-    <state x="403" y="123" key="CommitChangelistDialog2/0.23.1680.966@0.23.1680.966" timestamp="1604084934555" />
-    <state x="442" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604084774763">
+    <state x="403" y="123" key="CommitChangelistDialog2/0.23.1680.966@0.23.1680.966" timestamp="1604084946678" />
+    <state x="442" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604084959140">
       <screen x="0" y="23" width="1680" height="966" />
     </state>
-    <state x="442" y="249" key="Vcs.Push.Dialog.v2/0.23.1680.966@0.23.1680.966" timestamp="1604084774763" />
+    <state x="442" y="249" key="Vcs.Push.Dialog.v2/0.23.1680.966@0.23.1680.966" timestamp="1604084959140" />
+    <state x="507" y="257" width="670" height="676" key="search.everywhere.popup" timestamp="1604085007051">
+      <screen x="0" y="23" width="1680" height="966" />
+    </state>
+    <state x="507" y="257" width="670" height="676" key="search.everywhere.popup/0.23.1680.966@0.23.1680.966" timestamp="1604085007051" />
   </component>
 </project>
