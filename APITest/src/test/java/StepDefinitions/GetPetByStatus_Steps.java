@@ -28,13 +28,8 @@ public class GetPetByStatus_Steps {
 
     @Then("i should see {int} pets are returned with name {string} and status {string}")
     public void i_should_see_how_many_pets_are_returned(int total, String name, String status ) throws Exception {
-        List<Pet> pets = getPetsByName(name, status);
-        if(pets.size() == total){
-            System.out.println("Total Number of pets returned is correct");
-        }else {
-            System.out.println("The total number of pets in incorrect");
-            System.out.println("Total pets with name " + name + " and the status of " + status + " is " + pets.size());
-        }
+        Assert.assertEquals(228,pets.size(),"The total number of pets returned was ");
+        
         }
 
         private List<Pet> getPetsByName(String name, String status) throws Exception{
