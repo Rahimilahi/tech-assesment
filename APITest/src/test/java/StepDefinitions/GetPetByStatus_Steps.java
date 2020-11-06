@@ -28,7 +28,7 @@ public class GetPetByStatus_Steps {
 
     @Then("i should see {int} pets are returned with name {string} and status {string}")
     public void i_should_see_how_many_pets_are_returned(int total, String name, String status ) throws Exception {
-        Assert.assertEquals(total,pets.size(),"The total number of pets returned was ");
+        Assert.assertEquals(pets.size(),total,"The total number of pets returned was ");
         
         }
 
