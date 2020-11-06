@@ -19,8 +19,9 @@ public class GetPets {
     public static String getPetsByStatus (String methodType, String status) {
 
         try {
+             String baseUrl = "https://petstore.swagger.io/v2/pet/findByStatus?status=";
 
-            URL url = new URL("https://petstore.swagger.io/v2/pet/findByStatus?status=" + status);
+            URL url = new URL(baseUrl + status);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod(methodType);
             conn.setRequestProperty("Accept", "application/json");
